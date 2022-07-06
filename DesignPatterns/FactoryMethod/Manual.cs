@@ -2,8 +2,8 @@ namespace DesignPatterns;
 
 public class Manual : ICar
 {
-    public string Create()
+    public string Drive()
     {
-        return "Manual";
+        return "Driving with Manual";
     }
 }

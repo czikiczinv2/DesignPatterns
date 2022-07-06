@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{4F3032E8-AEC2-4C6F-B9A8-984B5FC30C1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsDisplay", "DesignPatternsDisplay\DesignPatternsDisplay.csproj", "{F4593A77-8145-43AA-90FD-648B2C148954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{4F3032E8-AEC2-4C6F-B9A8-984B5FC30C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3032E8-AEC2-4C6F-B9A8-984B5FC30C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3032E8-AEC2-4C6F-B9A8-984B5FC30C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4593A77-8145-43AA-90FD-648B2C148954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4593A77-8145-43AA-90FD-648B2C148954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4593A77-8145-43AA-90FD-648B2C148954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4593A77-8145-43AA-90FD-648B2C148954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

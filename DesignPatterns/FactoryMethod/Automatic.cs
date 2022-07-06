@@ -3,8 +3,8 @@ namespace DesignPatterns;
 public class Automatic : ICar
 {
    
-    public string Create()
+    public string Drive()
     {
-        return "Automatic";
+        return "Driving with Automatic";
     }
 }
