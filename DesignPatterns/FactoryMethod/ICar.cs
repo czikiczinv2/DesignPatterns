@@ -2,5 +2,5 @@ namespace DesignPatterns;
 
 public interface ICar
 {
-    string Create();
+    public string Drive();
 }
