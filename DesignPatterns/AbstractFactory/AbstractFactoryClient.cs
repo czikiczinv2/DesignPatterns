@@ -4,12 +4,12 @@ public class AbstractFactoryClient
 {
     public void Main()
     {
-        Console.WriteLine("Glowna Aplikacja: Test fabryki samochodow sportowych");
+        Console.WriteLine("Main App: Sports Car Factory Test");
         ClientCode(new SportsCarFactory());
 
         Console.WriteLine("--------------------------------------------------------------------------------");
         
-        Console.WriteLine("Glowna Aplikacja: Test fabryki ciezarowek ");
+        Console.WriteLine("Main App: Truck Factory Test");
         ClientCode(new TruckFactory());
     }
 
