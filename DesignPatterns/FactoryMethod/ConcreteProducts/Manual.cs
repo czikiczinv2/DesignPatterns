@@ -4,6 +4,6 @@ public class Manual : ICar
 {
     public string Drive()
     {
-        return "Driving with Manual";
+        return "Driving with Manual gearbox";
     }
 }
