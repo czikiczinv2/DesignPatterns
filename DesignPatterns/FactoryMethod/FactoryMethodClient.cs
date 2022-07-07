@@ -1,13 +1,13 @@
 namespace DesignPatterns;
 
-public class Client
+public class FactoryMethodClient
 {
     public void Main()
     {
         Console.WriteLine("Glowna aplikacja: proba dzialania z uzyciem Manuala.");
         ClientCode(new ManualCarFactory());
         
-        Console.WriteLine("-----------------------------------------------------------------------");
+        Console.WriteLine("--------------------------------------------------------------------------------");
 
         Console.WriteLine("Glowna aplikacja: proba dzialania z uzyciem Automata.");
         ClientCode(new AutomaticCarFactory());
