@@ -4,17 +4,17 @@ public class FactoryMethodClient
 {
     public void Main()
     {
-        Console.WriteLine("Glowna aplikacja: proba dzialania z uzyciem Manuala.");
+        Console.WriteLine("Main App: Manual Car Factory Test");
         ClientCode(new ManualCarFactory());
         
         Console.WriteLine("--------------------------------------------------------------------------------");
 
-        Console.WriteLine("Glowna aplikacja: proba dzialania z uzyciem Automata.");
+        Console.WriteLine("Main App: Automatic Car Factory Test");
         ClientCode(new AutomaticCarFactory());
     }
 
     public void ClientCode(CarFactory carFactory)
     {
-        Console.WriteLine("Client (uzywa obiektu typu CarFactory): " + carFactory.Operation() );
+        Console.WriteLine("Client (receives an object of type CarFactory): " + carFactory.Operation() );
     }
 }
