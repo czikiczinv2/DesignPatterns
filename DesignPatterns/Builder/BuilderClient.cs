@@ -35,7 +35,9 @@ public class BuilderClient
         sportsCar.BuildCarBody();
         sportsCar.BuildTurbo();
         sportsCar.BuildSpoiler();
+        sportsCar.BuildRadio();
         sportsCar.GetResult().DisplayParts();
 
+        
     }
 }

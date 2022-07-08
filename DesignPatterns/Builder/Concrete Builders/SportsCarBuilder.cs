@@ -13,7 +13,7 @@ public class SportsCarBuilder : CarBuilder
     {
         _car.Add("Wheels");
     }
-
+   
     public override void BuildTires()
     {
         _car.Add("Tires");
@@ -29,8 +29,12 @@ public class SportsCarBuilder : CarBuilder
         _car.Add("CarBody");
     }
 
-    
-    
+    public override void BuildRadio()
+    {
+        _car.Add("Sports Car nie implementuje radia");
+    }
+
+
     public override void BuildTurbo()
     {
         _car.Add("Turbo");
