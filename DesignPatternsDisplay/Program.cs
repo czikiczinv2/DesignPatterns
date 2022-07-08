@@ -2,6 +2,7 @@
 
 using DesignPatterns;
 using DesignPatterns.AbstractFactory;
+using DesignPatterns.Builder;
 
 Console.WriteLine("Factory Method Pattern:");
 
@@ -12,3 +13,9 @@ Console.WriteLine("=============================================================
 Console.WriteLine("Abstract Factory Pattern:");
 
 new AbstractFactoryClient().Main();
+
+Console.WriteLine("================================================================================");
+
+Console.WriteLine("Builder Pattern:");
+
+new BuilderClient().Main();
