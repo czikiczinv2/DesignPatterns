@@ -15,7 +15,7 @@ public class DecoratorClient
         
         Buyable buyableSportsCar = new Buyable(sportsCar);
         Borrowable borrowableSportsCar = new Borrowable(sportsCar);
-        Console.WriteLine("Client: Now I have a buyable Sports Car and borrowable Sports Car:");
+        Console.WriteLine("Client: Now I have a buyable Sports Car and borrowable Sports Cars:");
         ClientCode(buyableSportsCar);
         ClientCode(borrowableSportsCar);
         
