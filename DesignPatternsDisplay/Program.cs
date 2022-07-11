@@ -5,6 +5,7 @@ using DesignPatterns.AbstractFactory;
 using DesignPatterns.Builder;
 using DesignPatterns.Command;
 using DesignPatterns.Decorator;
+using DesignPatterns.Mediator;
 
 Console.WriteLine("Factory Method Pattern:");
 
@@ -33,3 +34,9 @@ Console.WriteLine("=============================================================
 Console.WriteLine("Command Pattern:");
 
 new CommandPatternClient().Main();
+
+Console.WriteLine("================================================================================");
+
+Console.WriteLine("Mediator Pattern:");
+
+new MediatorPatternClient().Main();
