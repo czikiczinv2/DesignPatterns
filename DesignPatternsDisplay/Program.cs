@@ -3,6 +3,7 @@
 using DesignPatterns;
 using DesignPatterns.AbstractFactory;
 using DesignPatterns.Builder;
+using DesignPatterns.Command;
 using DesignPatterns.Decorator;
 
 Console.WriteLine("Factory Method Pattern:");
@@ -23,4 +24,12 @@ new BuilderClient().Main();
 
 Console.WriteLine("================================================================================");
 
+Console.WriteLine("Decorator Pattern:");
+
 new DecoratorClient().Main();
+
+Console.WriteLine("================================================================================");
+
+Console.WriteLine("Command Pattern:");
+
+new CommandPatternClient().Main();
